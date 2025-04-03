@@ -1,43 +1,44 @@
 # Financial-Market-Analysis-Dashboard
 
-This Power BI dashboard provides insights into market trends, volatility, risk analysis, and trade performance using historical stock data. The project leverages SQL for data extraction and transformation, Power BI for visualization, and DAX for advanced calculations.
+ Overview
+This project is a Financial Market Analysis Dashboard built using Power BI, SQL, and DAX to analyze market trends, risk factors, and portfolio performance.
 
-🔍 Key Features:
-SQL Data Processing: Extract, clean, and transform financial data 📂
+📌 Key Features
+Daily Returns & Volatility Analysis: Track market fluctuations with 7-day & 30-day moving averages.
 
-Daily Returns Calculation 📈
+Profit/Loss Analysis: Visualize trade-side impact across asset types.
 
-Moving Averages (7-day & 30-day) Visualization 📊
+Risk & Drawdowns: Identify high-risk periods with 30-day rolling volatility and drawdown alerts.
 
-Profit/Loss Analysis by Asset Type 💰
+SQL-Driven Data Processing: Cleaned and transformed raw financial data using SQL.
 
-Volatility & Drawdown Analysis 🔥
+🛠️ Tech Stack
+Power BI (for dashboards & visualizations)
 
-Interactive Filters for Trade Side (Buy/Sell) ✅
+SQL (for data extraction & transformation)
 
-🚀 Technologies Used:
-SQL (PostgreSQL/SQL Server) for querying and transforming financial data
+DAX (for calculated measures)
 
-Power BI for interactive data visualization
+📂 Repository Structure
+bash
+Copy
+Edit
+/SQL-Queries/        # SQL scripts for data processing  
+/Dashboard.pbix      # Power BI file for visual analysis  
+/README.md           # Project documentation  
+📥 How to Use
+Clone the repository:
 
-DAX for advanced financial metrics (Daily Returns, Moving Averages, Volatility)
+sh
+Copy
+Edit
+git clone https://github.com/intheperkofextinction/Financial-Market-Analysis-Dashboard.git
+Open the Dashboard.pbix file in Power BI.
 
-Excel/CSV for raw data processing
+Connect to your financial dataset.
 
-📁 Dataset:
-Historical trading data containing Date, Close Price, Volume, High, Low
+Explore insights and customize the dashboard as needed.
 
-Data was processed and cleaned using SQL queries before being loaded into Power BI
+💡 Feedback & Contributions are welcome!
 
-📌 How to Use:
-Run the SQL scripts to extract and clean the dataset
-
-Load the Power BI (.pbix) file and connect it to the processed data
-
-Explore the dashboard to analyze financial trends
-
-🌟 Project Motivation:
-This project was created to demonstrate SQL, Power BI, and financial data analysis skills for a Financial Data Analyst role. It showcases expertise in data wrangling, visualization, and market analytics.
-
-💡 Feel free to contribute or reach out for discussions!
 
